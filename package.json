@@ -2,10 +2,10 @@
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Matthew Taruno",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/mtaruno/v4"
   },
   "keywords": [
     "gatsby"
@@ -56,6 +56,7 @@
     "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^16.10.2",
     "react-helmet": "^6.1.0",
     "react-transition-group": "^4.3.0",

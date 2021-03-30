@@ -126,13 +126,44 @@ const About = () => {
     }
   `);
 
+  // const Featured = () => {
+  //   const hardData = useStaticQuery(graphql`
+  //   query {
+  //     hardskills: allMarkdownRemark(
+  //       filter: { fileAbsolutePath: { regex: "/hardskills/" } }
+  //       sort: { fields: [frontmatter___date], order: DESC }
+  //     ) {
+  //       edges {
+  //         node {
+  //           frontmatter {
+  //             name
+  //             valule
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  //   `);
+
   const revealContainer = useRef(null);
 
   useEffect(() => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Eleventy', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'R',
+    'Java',
+    'Machine Learning',
+    'Data Engineering (SQL, Pandas)',
+    'Data Visualization (Tableau, Plotly, Bokeh, Seaborn)',
+    'Big Data (Pyspark, AWS)',
+    'Deep Learning (PyTorch, Tensorflow, Keras)',
+    'NLP and conversational Interfaces',
+    'Statistics (Bayesian, Operations Research, Inference)',
+  ];
+  // const hardSkills = hardData.featured.edges.filter(({ node }) => node);
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -142,26 +173,11 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hi, I'm Matthew! I was born in Indonesia. I graduated with a Bachelors of Science in
+              Data Science at the University of Rochester in 2021.
             </p>
-
-            <p>
-              Fast-forward to today, and I've had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
-
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>

@@ -48,14 +48,19 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Matthew Taruno</h2>;
+  const three = <h3 className="big-heading">I am passionate about data.</h3>;
   const four = (
     <p>
-      I'm a Boston-based software engineer who specializes in building (and occasionally designing)
-      exceptional digital experiences. Currently, I'm an engineer at{' '}
-      <a href="https://upstatement.com/">Upstatement</a> focused on building accessible,
-      human-centered products.
+      I am a data scientist for my own life - I use data to make better decisions for myself and
+      others, more often. I often view life as a game of optimization - and there is an immense
+      amount of data around us just waiting for me to visualize it and apply the wide toolkit of
+      data science techniques that I have under my belt to extract useful signals. There’s a story
+      to unravel behind every dataset.
+      <br></br>
+      <br></br>I am a very curious person who believes in the compounding nature of learning - and I
+      am always striving to use my data literacy as a powerful asset in many fields, such as
+      finance, statistics, grocery chain management, customer service, and music.
     </p>
   );
   const five = (

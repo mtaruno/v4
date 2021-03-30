@@ -41,7 +41,7 @@ const Head = ({ title, description, image }) => {
   };
 
   return (
-    <Helmet title={title} defaultTitle={seo.title} titleTemplate={`%s | ${defaultTitle}`}>
+    <Helmet title="Matthew Taruno">
       <html lang="en" />
 
       <meta name="description" content={seo.description} />
