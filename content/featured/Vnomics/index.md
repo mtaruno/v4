@@ -1,8 +1,8 @@
 ---
 date: '1'
 title: 'Vnomics DPF Failure Prediction'
-cover: './demo.png'
-github: 'https://github.com/mtaruno/Vnomics'
+cover: './vnomics.png'
+github: 'https://github.com/mtaruno/vnomics'
 external: ''
 tech:
   - Python
