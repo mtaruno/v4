@@ -1,10 +1,6 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: '/v4/home',
-};
-
-module.exports = {
   siteMetadata: {
     title: 'Matthew Taruno',
     description: 'Matthew Taruno is a data scientist.',
@@ -158,4 +154,5 @@ module.exports = {
       },
     },
   ],
+  pathPrefix: '/v4',
 };
