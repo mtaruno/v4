@@ -5,10 +5,9 @@ cover: './vnomics.png'
 github: 'https://github.com/mtaruno/vnomics'
 external: ''
 tech:
-  - Python
-  - Tableau
   - TS Fresh
   - Keras
+  - Plotly
 showInProjects: true
 ---
 

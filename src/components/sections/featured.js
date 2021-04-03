@@ -162,7 +162,7 @@ const StyledProject = styled.li`
 
     @media (max-width: 768px) {
       padding: 20px 0;
-      background-color: transparent;
+      background-color: black;
       box-shadow: none;
 
       &:hover {
@@ -208,7 +208,7 @@ const StyledProject = styled.li`
     position: relative;
     margin-top: 10px;
     margin-left: -10px;
-    color: var(--lightest-slate);
+    color: var(--maroon);
 
     a {
       ${({ theme }) => theme.mixins.flexCenter};

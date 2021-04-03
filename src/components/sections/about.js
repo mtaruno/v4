@@ -126,61 +126,51 @@ const About = () => {
     }
   `);
 
-  // const Featured = () => {
-  //   const hardData = useStaticQuery(graphql`
-  //   query {
-  //     hardskills: allMarkdownRemark(
-  //       filter: { fileAbsolutePath: { regex: "/hardskills/" } }
-  //       sort: { fields: [frontmatter___date], order: DESC }
-  //     ) {
-  //       edges {
-  //         node {
-  //           frontmatter {
-  //             name
-  //             valule
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  //   `);
-
   const revealContainer = useRef(null);
 
   useEffect(() => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = [
-    'Python',
-    'R',
-    'Java',
-    'Machine Learning',
-    'Data Engineering (SQL, Pandas)',
-    'Data Visualization (Tableau, Plotly, Bokeh, Seaborn)',
-    'Big Data (Pyspark, AWS)',
-    'Deep Learning (PyTorch, Tensorflow, Keras)',
-    'NLP and conversational Interfaces',
-    'Statistics (Bayesian, Operations Research, Inference)',
-  ];
-  // const hardSkills = hardData.featured.edges.filter(({ node }) => node);
+  // const mlStats = [
+  //   'Supervised & Unsupervised Learning Algorithms', 'Natural Language Processing', "Bayesian Inference", "Cloud Computing", "Deep Learning (RNN, LSTM, Attention Based Models, and Autoencoders)", "Topic Modelling (LDA/LSA/NMF)", "Regression Analysis"
+  // ];
+  // const programming = [
+  //   'Python', 'R', 'SQL', 'Stata', 'Java'
+  // ]
+  // const dataVis=[
+  //   "Tableau", "Plotly", "Seaborn", "Matplotlib", "ggplot"
+  // ]
+  // const pythonPackages=[
+  //   'Pandas', 'Pyspark', 'Numpy', 'Scikit-learn', 'TS Fresh', 'spaCy', 'PyTorch', 'Keras'
+  // ]
+  // const tools = [
+  //   'commandLine', 'Databricks', 'Jupyter Notebookds', 'Git', 'LaTeX', 'Markdown'
+  // ]
+  // const business = [
+  //   'A/B Testing', "Markowitz Portfolio Theory", "Econometrics", "Pricing Strategy", "Accounting", "Valuations", "Market Psychology", "Options Trading", "Project Management", "Presentations"
+  // ]
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
-
+      {/* <h2 className="numbered-heading">About Me</h2> */}
       <div className="inner">
         <StyledText>
           <div>
             <p>
-              Hi, I'm Matthew! I was born in Indonesia. I graduated with a Bachelors of Science in
-              Data Science at the University of Rochester in 2021.
+              I am a data scientist for my own life - I use data to make better decisions for myself
+              and others, more often. I often view life as a game of optimization - and there is an
+              immense amount of data around us just waiting for me to visualize it and apply the
+              wide toolkit of data science techniques that I have under my belt to extract useful
+              signals. There’s a story to unravel behind every dataset.
+              <br></br>I am a very curious person who believes in the compounding nature of learning
+              - and I am always striving to use my data literacy as a powerful asset in many fields,
+              such as finance, statistics, grocery chain management, customer service, and music.
+              <br></br>I graduate this semester from the University of Rochester with a BS in Data
+              Science and a minor in Business. Outside of data science, some of my hobbies include
+              playing the piano/guitar, producing music, table tennis, and chess
             </p>
-            <p>Here are a few technologies I've been working with recently:</p>
           </div>
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
         </StyledText>
 
         <StyledPic>

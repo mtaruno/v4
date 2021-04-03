@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master2",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master3",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -60,6 +60,7 @@
     "react-bootstrap": "^1.5.2",
     "react-dom": "^16.10.2",
     "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
     "react-transition-group": "^4.3.0",
     "scrollreveal": "^4.0.5",
     "smooth-scroll": "^16.1.0",
