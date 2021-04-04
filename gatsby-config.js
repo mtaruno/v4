@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Matthew Taruno',
     description: 'Matthew Taruno is a data scientist.',
-    siteUrl: 'https://mtaruno.github.io/v4', // No trailing slash allowed!
+    siteUrl: 'www.matthewtaruno.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
