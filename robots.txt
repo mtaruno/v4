@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.mathewtaruno.com/sitemap.xml
+Host: www.mathewtaruno.com
