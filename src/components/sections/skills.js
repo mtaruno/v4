@@ -235,7 +235,7 @@ const Skills = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>My Skills</h2>
+      <h2 id="skills" ref={revealTitle} className="numbered-heading">My Skills</h2>
 
       <ul className="projects-grid">
         <TransitionGroup component={null}>
@@ -265,7 +265,7 @@ const Skills = () => {
                             {/* <div>{items[Number(company) - 1]}</div> */}
                             <FaStar></FaStar>
                           </div>
-                          <div className="project-links">
+                          {/* <div className="project-links">
                             {github && (
                               <a href={github} aria-label="GitHub Link">
                                 <Icon name="GitHub" />
@@ -276,11 +276,11 @@ const Skills = () => {
                                 <Icon name="External" />
                               </a>
                             )}
-                          </div>
+                          </div> */}
                         </div>
 
                         <h3 className="project-title">
-                          <a href={external}>{title}</a>
+                          <a>{title}</a>
                         </h3>
 
                         <div

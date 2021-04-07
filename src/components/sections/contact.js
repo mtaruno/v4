@@ -51,9 +51,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I am currently looking for full time data science or ML related roles. If you feel I can
-        help, or if you simply would like to chat, feel free to reach out to me at the link below. I
-        love learning more about people’s experiences and companies.
+      I am currently looking for full time data science, SWE, or ML related roles. If you feel I can help, or if you simply would like to chat, feel free to reach out to me at the link below! I love learning more about people’s experiences and companies.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

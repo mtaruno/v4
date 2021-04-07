@@ -167,7 +167,7 @@ const About = () => {
               such as finance, statistics, grocery chain management, customer service, and music.
               <br></br>I graduate this semester from the University of Rochester with a BS in Data
               Science and a minor in Business. Outside of data science, some of my hobbies include
-              playing the piano/guitar, producing music, table tennis, and chess
+              playing the piano/guitar, producing music, table tennis, and chess.
             </p>
           </div>
         </StyledText>
