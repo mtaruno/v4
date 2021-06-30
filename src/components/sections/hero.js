@@ -216,18 +216,9 @@ const Hero = () => {
           <StyledText>
             <div>
               <p>
-                I am a data scientist for my own life - I use data to make better decisions for
-                myself and others, more often. I often view life as a game of optimization - and
-                there is an immense amount of data around us just waiting for me to visualize it and
-                apply the wide toolkit of data science techniques that I have under my belt to
-                extract useful signals. There’s a story to unravel behind every dataset.
-                <br></br>I am a very curious person who believes in the compounding nature of
-                learning - and I am always striving to use my data literacy as a powerful asset in
-                many fields, such as finance, statistics, grocery chain management, customer
-                service, and music.
-                <br></br>I graduate this semester from the University of Rochester with a BS in Data
-                Science and a minor in Business. Outside of data science, some of my hobbies include
-                playing the piano/guitar, producing music, table tennis, and chess.
+              I am a data scientist for my own life - I use data to make better decisions for myself and others, more often. I often view life as a game of optimization and improving processes, for which data is invaluable for and many call it the new gold. There is an immense amount of data around us just waiting for me to visualize it and apply the wide toolkit of data science techniques that I have under my belt to extract useful signals. These signals are often value packed, and it is my job either to tell a story out of it or use it to power a production-ready, useful AI system.
+<br></br><br></br>I am a very curious person who passionately and continuously learns new things and believes in the compounding nature of learning - especially when it is hands on. My data literacy is a powerful, universal asset that helps me in every area. The main areas I have been applying them towards is in finance/stock market, business empowerment, supply chain management, customer service, and music.
+<br></br><br></br>I have a BS in data science alongside a minor in business from the University of Rochester. Outside of data science, some of my hobbies include playing the piano/guitar, producing music, table tennis, and chess. This website gives a little glimpse into my work I have done and can help you do. Enjoy!
               </p>
             </div>
           </StyledText>
